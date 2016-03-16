@@ -20,26 +20,26 @@ Please, note that a step of cleaning is made on the input file. The file used as
 The text file has to be formatted in five TAB-separated columns. The first row of the file has to contain the headers (column names) and the first three columns have to contain the year, the month and the day of the series. Column four is the candidate rain serie and column five is the reference rain serie. Missing values must be marked as NA. It is very important to start the file from the first of January (of any year) and end it at the 31st of December (of any year) with at least 5 years of data. See the attached files called exampleX.txt
 
 # OUTPUT
-0_statistics_input_file.csv - Important statistics on input file and cleaned input file
-1_cleaned_input_file.txt - The file that is really used as input
-2_can_Pidro_daily_availability.csv - Number of days of available data on candidate serie
-2_can_Pidro_monthly_rain.csv - Total amount of rain by month on candidate serie
-2_ref_Parpa_daily_availability.csv - Number of days of available data on reference serie
-2_ref_Parpa_monthly_rain.csv - Total amount of rain by month on reference serie
-3_can_Pidro_day_month_rain.png - Plot of daily and monthly data on candidate serie
-3_ref_Parpa_day_month_rain.png - Plot of daily and monthly data on reference serie
-4_statistics_between_daily_series.csv - RMSE, T, KS, Wilcox, Kruskal and Spearman between the two daily series
-5_total_precipit_plot_with_15_5.png - Scatter plot of daily events
-6_percentage_relative_error.csv - Percentage of relative errors grouped by month (filtered optional)
-7_percentage_relative_error_boxplot.png - Box plot of previous data (filtered optional)
-8_percentage_relative_error_trend.png - Trend of previous data (filtered optional)
-8_stats_percentage_relative_error_trend.csv - Statistics on trend (filtered optional)
-9_events_R99.png - Scatter plot of R99 precipitation
-9_events_R95.png - Scatter plot of R95 precipitation
-9_events_heavy.png - Scatter plot of heavy precipitation
-9_events_mean.png - Scatter plot of mean precipitation
-9_events_weak.png - Scatter plot of weak precipitation
-10_class_event_and_RMSE.csv - Summary of information on classes
+0_statistics_input_file.csv - Important statistics on input file and cleaned input file.
+1_cleaned_input_file.txt - The file that is really used as input.
+2_can_Pidro_daily_availability.csv - Number of days of available data on candidate serie.
+2_can_Pidro_monthly_rain.csv - Total amount of rain by month on candidate serie.
+2_ref_Parpa_daily_availability.csv - Number of days of available data on reference serie.
+2_ref_Parpa_monthly_rain.csv - Total amount of rain by month on reference serie.
+3_can_Pidro_day_month_rain.png - Plot of daily and monthly data on candidate serie.
+3_ref_Parpa_day_month_rain.png - Plot of daily and monthly data on reference serie.
+4_statistics_between_daily_series.csv - RMSE, T, KS, Wilcox, Kruskal and Spearman between the two daily series.
+5_total_precipit_plot_with_15_5.png - Scatter plot of daily events.
+6_percentage_relative_error.csv - Percentage of relative errors grouped by month (filtered optional).
+7_percentage_relative_error_boxplot.png - Box plot of previous data (filtered optional).
+8_percentage_relative_error_trend.png - Trend of previous data (filtered optional).
+8_stats_percentage_relative_error_trend.csv - Statistics on trend (filtered optional).
+9_events_R99.png - Scatter plot of R99 precipitation.
+9_events_R95.png - Scatter plot of R95 precipitation.
+9_events_heavy.png - Scatter plot of heavy precipitation.
+9_events_mean.png - Scatter plot of mean precipitation.
+9_events_weak.png - Scatter plot of weak precipitation.
+10_class_event_and_RMSE.csv - Summary of information on classes.
 
 Following R-packages have to be installed: "class", "zoo", "hydroGOF", "xts", "hydroTSM", "zyp", "Kendall"
 
