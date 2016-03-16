@@ -44,3 +44,4 @@ The text file has to be formatted in five TAB-separated columns. The first row o
 Following R-packages have to be installed: "class", "zoo", "hydroGOF", "xts", "hydroTSM", "zyp", "Kendall"
 
 This code has been written under R-Version 3.2.2; for older or newer versions problems might occur.
+
