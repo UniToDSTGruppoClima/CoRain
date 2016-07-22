@@ -1,6 +1,8 @@
 # Co.Rain
 ## Comparing series of Rain
 
+[![DOI](https://zenodo.org/badge/23424/UniToDSTGruppoClima/CoRain.svg)](https://zenodo.org/badge/latestdoi/23424/UniToDSTGruppoClima/CoRain)
+
 This program works in three steps: statistical analysis, comparison between the cleaned series (with same missing values and daily values <= 1mm) and comparison between precipitation classes. For major details, see the paper by **Acquaotta F., Fratianni S. and Venema V. (2016) - Assessment of parallel precipitation measurements networks in Piedmont, Italy (International Journal of Climatology - DOI 10.1002/joc.4606)**.
 
 ###### 1] Statistical analysis
