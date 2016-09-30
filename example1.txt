@@ -1,4 +1,4 @@
-anno	mese	gg	Pidro	Parpa
+y	m	d	Candidate1	Reference1
 1991	1	1	0	0
 1991	1	2	0	0
 1991	1	3	0.2	0

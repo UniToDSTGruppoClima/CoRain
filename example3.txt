@@ -1,4 +1,4 @@
-y	m	d	Valsoera_Simn	Valsoera_Arpa
+y	m	d	Candidate3	Reference3
 1990	1	1	21	0
 1990	1	2	0	0
 1990	1	3	0	0
