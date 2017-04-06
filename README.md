@@ -47,3 +47,6 @@ Following R-packages have to be installed: *"class", "zoo", "hydroGOF", "xts", "
 
 This code has been written under R-Version 3.2.2; for older or newer versions problems might occur.
 
+#### FURTHER DETAILS
+An article describing this software has been published on Earth Science Informatics (Springer).
+For further details, please refer to http://rdcu.be/qEsU and http://link.springer.com/article/10.1007/s12145-017-0301-y
